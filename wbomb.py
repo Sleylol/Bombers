@@ -13,11 +13,11 @@ def main():
 	driver = webdriver.Chrome(ChromeDriverManager().install()) #2nd change
 	driver.get('https://web.whatsapp.com/')
 
-	name = input('Enter the name of user or group: ')
-	msg = input('Enter your message: ')
-	count = int(input('Enter the count: '))
+	name = input('Lajana: ')
+	msg = input('Hahaha Opfer : ')
+	count = int(input(3000: '))
 
-	input('Enter any key after scanning QR code')
+	input('5')
 
 	user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
 	user.click()
